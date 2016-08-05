@@ -16,6 +16,8 @@
 		513C838E1D543A2100D70A04 /* App_gitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 513C838D1D543A2100D70A04 /* App_gitTests.m */; };
 		513C83991D543A2100D70A04 /* App_gitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 513C83981D543A2100D70A04 /* App_gitUITests.m */; };
 		513C83A81D545F3800D70A04 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 513C83A71D545F3800D70A04 /* TableViewCell.m */; };
+		513C83AC1D54640600D70A04 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 513C83AA1D54640600D70A04 /* MyCell.m */; };
+		513C83AD1D54640600D70A04 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 513C83AB1D54640600D70A04 /* MyCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		513C839A1D543A2100D70A04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		513C83A61D545F3800D70A04 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		513C83A71D545F3800D70A04 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		513C83A91D54640600D70A04 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		513C83AA1D54640600D70A04 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		513C83AB1D54640600D70A04 /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,9 @@
 				513C837A1D543A2100D70A04 /* ViewController.m */,
 				513C83A61D545F3800D70A04 /* TableViewCell.h */,
 				513C83A71D545F3800D70A04 /* TableViewCell.m */,
+				513C83A91D54640600D70A04 /* MyCell.h */,
+				513C83AA1D54640600D70A04 /* MyCell.m */,
+				513C83AB1D54640600D70A04 /* MyCell.xib */,
 				513C837C1D543A2100D70A04 /* Main.storyboard */,
 				513C837F1D543A2100D70A04 /* Assets.xcassets */,
 				513C83811D543A2100D70A04 /* LaunchScreen.storyboard */,
@@ -252,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				513C83831D543A2100D70A04 /* LaunchScreen.storyboard in Resources */,
+				513C83AD1D54640600D70A04 /* MyCell.xib in Resources */,
 				513C83801D543A2100D70A04 /* Assets.xcassets in Resources */,
 				513C837E1D543A2100D70A04 /* Main.storyboard in Resources */,
 			);
@@ -281,6 +290,7 @@
 				513C837B1D543A2100D70A04 /* ViewController.m in Sources */,
 				513C83A81D545F3800D70A04 /* TableViewCell.m in Sources */,
 				513C83781D543A2100D70A04 /* AppDelegate.m in Sources */,
+				513C83AC1D54640600D70A04 /* MyCell.m in Sources */,
 				513C83751D543A2100D70A04 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
