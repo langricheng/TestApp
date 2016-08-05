@@ -44,7 +44,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        // Custom initialization就看见借记卡代理及顾客大驾光临
     }
     return self;
 }
